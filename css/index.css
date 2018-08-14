@@ -1,0 +1,84 @@
+*{
+   margin: 0;
+   padding: 0;
+   -webkit-font-smoothing: antialiased;
+}
+
+body{
+   font-family: 'roboto';
+}
+nav {
+   background: red;
+   color: white;
+   height: 50px;
+   position: fixed;
+   z-index: 300;
+   width: 100vw;
+}
+nav ul{
+   list-style: none;
+   line-height: 50px;
+   float: right;
+   margin-right: 20px;
+}
+nav ul li{
+   font-size: 14px;
+   display: inline-block;
+   padding: 0 13px;
+   transition: all .4s;
+}
+nav ul li:hover{
+   cursor: pointer;
+}
+.section-1{
+   text-align: center;
+   width: 80vh;
+   margin: auto;
+}
+.section-1 img{
+   height: 200px;
+   border-radius:100%;
+   margin-top: 15vh;
+}
+.section-1 button{
+   height: 40px;
+   width: 100px;
+   background: #ffffff;
+   border: 1px solid $color;
+   color: black;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 4px;
+   position: relative;
+   box-shadow: none;
+   margin: 20px;
+   z-index: -1;
+   transition: all .2s;
+}
+.section-1 button::before{
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   content: " ";
+   z-index: 10;
+   background: red;
+   transform-origin: 0 50%;
+   transform: scaleX(0);
+   transition: transform .3s ease-out;
+}
+.section-1 button:hover{
+   cursor: pointer;
+}
+.section-1 h1{
+   font-weight: 300;
+   margin-top: 20px;
+}
+.section-1 p{
+   font-size: 20px;
+   font-weight: 300;
+}
+.section-1 h1 span{
+   font-weight: 400;
+}
