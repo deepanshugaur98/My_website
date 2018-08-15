@@ -32,30 +32,30 @@ nav ul li:hover{
 }
 .section-1{
    text-align: center;
-   width: 80vh;
    margin: auto;
+   background: blue;
 }
 .section-1 img{
    height: 200px;
    border-radius:100%;
    margin-top: 15vh;
 }
-.section-1 button{
+.resume{
    height: 40px;
    width: 100px;
    background: #ffffff;
-   border: 1px solid $color;
+   border: 1px solid #000;
    color: black;
    text-align: center;
    line-height: 40px;
-   border-radius: 4px;
+   border-radius: 5px;
    position: relative;
    box-shadow: none;
-   margin: 20px;
+   margin: 20px auto;
    z-index: -1;
    transition: all .2s;
 }
-.section-1 button::before{
+.resume::before{
    position: absolute;
    top: 0;
    left: 0;
@@ -68,17 +68,54 @@ nav ul li:hover{
    transform: scaleX(0);
    transition: transform .3s ease-out;
 }
-.section-1 button:hover{
+.resume:hover{
    cursor: pointer;
+}
+.resume:hover:before{
+   transform: scaleX(1);
 }
 .section-1 h1{
    font-weight: 300;
    margin-top: 20px;
-}
-.section-1 p{
-   font-size: 20px;
-   font-weight: 300;
+   font-size: 40px;
 }
 .section-1 h1 span{
    font-weight: 400;
+}
+.section-1 h2 {
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 5px;
+}
+.section-1 p{
+    width: 50vw;
+    font-size: 16px;
+    margin:auto;
+    margin-top: 40px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.section-1 .social-media{
+
+   padding-bottom: 50px;
+}
+.social-media i{
+   font-size:25px;
+   margin: 0px 10px;
+   background: #ffffff;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius:100%;
+   transition :all .4s;
+}
+.social-media i:hover{
+   cursor: pointer;
+   box-shadow: 0 0 1px 7px red; /* rgba(210,0,104,.15) */
+}
+h2{
+   padding-top: 30px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+   font-size: 32px;
 }
