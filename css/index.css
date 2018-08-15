@@ -108,14 +108,91 @@ nav ul li:hover{
    line-height: 40px;
    border-radius:100%;
    transition :all .4s;
+   text-align: center;
 }
 .social-media i:hover{
    cursor: pointer;
+   transform: scale(1.1);
    box-shadow: 0 0 1px 7px red; /* rgba(210,0,104,.15) */
 }
-h2{
-   padding-top: 30px;
-   margin-left: 20px;
+.section-3{
+   width: 80vw;
+   margin: auto;
+   padding : 50px;
+   //background: orange;
+}
+.section-3 h2{
+   /* font-size: 15px;
+   font-weight: 300;
+   color: grey; */
+   font-size: 50px;
+   text-align: center;
    margin-bottom: 20px;
-   font-size: 32px;
+}
+.work {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows:20% auto;
+   margin: 40px 0;
+}
+.work h3{
+   font-size: 30px;
+   grid-row: 1/2;
+   grid-column: 1/5;
+}
+.work h3 span{
+   font-size: 15px;
+   color: grey;
+   font-weight: 300;
+   padding-left: 10px;
+   font-style: italic;
+}
+.work p{
+   grid-row: 2/3;
+   grid-column: 2/5;
+}
+.work img{
+   height: 250px;
+   border-radius: 10px;
+   grid-row: 2/3;
+
+}
+
+
+
+
+footer{
+   background: pink;
+}
+footer h4{
+   font-weight: 300;
+   font-size: 25px;
+   padding: 10px 50px;
+   padding-top: 30px;
+}
+footer h4 a{
+   color: red;
+   text-decoration: none;
+   transition:all .3s;
+}
+footer h4 a:hover{
+   text-decoration: underline;
+}
+footer .social-media{
+   font-size: 14px;
+   margin-left: 40px;
+   padding: 30px 0 100px 0;
+}
+footer h5{
+   width: 100vw;
+   font-weight: 300;
+   background: black;
+   height: 30px;
+   line-height: 30px;
+   font-size: 15px;
+   color: white;
+   text-align: center;
+}
+footer h5 a{
+   color: pink;
 }
