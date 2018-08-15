@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600|Oxygen:700|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600|Oxygen:700|Roboto:300,400,900');
 *{
    margin: 0;
    padding: 0;
@@ -92,7 +92,7 @@ nav ul li:hover{
 .social-media i:hover{
    cursor: pointer;
    transform: scale(1.1);
-   box-shadow: 0 0 1px 5px #13293D50; /* rgba(210,0,104,.15) */
+   box-shadow: 0 0 1px 5px #ffffff40; 
 }
 .section-3{
    width: 80vw;
