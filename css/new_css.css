@@ -83,7 +83,7 @@ nav ul a li{
 
 /*----- 80VW -----*/
 .wrapper{
-   width: 80vw;
+   width: 70vw;
    margin:auto;
 }
 .wrapper a{
@@ -91,7 +91,7 @@ nav ul a li{
    color: #000000;
 }
 .section-3 , .section-2{
-   width: 80vw;
+   width: 70vw;
    margin: auto;
    display: grid;
    grid-template-columns: 1fr 1fr;
