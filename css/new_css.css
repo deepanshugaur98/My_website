@@ -6,24 +6,25 @@
    font-family: 'proxima nova';
    -webkit-font-smoothing: antialiased;
 }
-.wrapper{
-   width: 80vw;
-   margin:auto;
-}
 nav{
    height: 50px;
    position: fixed;
    z-index: 300;
    transition: all .5s;
    width: 100vw;
-   color: #ffffff;
 }
 .scrolled{
    background: #f8f8f9;
    background: linear-gradient(to right, #4A00E030, #8E2DE230);
    background: #efe7ff;
    background: #ffffff;
+   background: #f9fafb;
+}
+.scrolled_text{
    color: #000000;
+   background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 nav ul{
    line-height: 50px;
@@ -35,9 +36,8 @@ nav ul li{
    display: inline-block;
    padding: 0 13px;
 }
-a{
-   text-decoration: none;
-   color: #000000;
+nav ul a li{
+   color: #ffffff;
 }
 .section-1{
    width: 100vw;
@@ -80,6 +80,16 @@ a{
    border-radius: 100%;
    animation: fade 1s;
 }
+
+/*----- 80VW -----*/
+.wrapper{
+   width: 80vw;
+   margin:auto;
+}
+.wrapper a{
+   text-decoration: none;
+   color: #000000;
+}
 .section-3 , .section-2{
    width: 80vw;
    margin: auto;
@@ -112,10 +122,6 @@ section h3{
    font-family: 'IBM Plex Serif';
    font-size: 25px;
    padding: 15px 0 10px;
-
-   /* background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 .blog h3{
    color: #000000;

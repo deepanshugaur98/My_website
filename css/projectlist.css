@@ -1,0 +1,34 @@
+.content{
+   width: 70vw;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 50px;
+}
+h1{
+   font-size: 50px;
+   font-weight: 300;
+   text-align: center;
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+}h3{
+   font-family: 'IBM Plex Serif';
+   font-size: 25px;
+   padding: 15px 0 10px;
+}
+.work{
+   padding-bottom: 5vh;
+}
+a{
+   text-decoration: none;
+   color: #000000;
+}
+img{
+   width: 100%;
+}
+.img-1{
+   background: url('./../imgs/one.png');
+   width: 100%;
+   height: 400px;
+   background-size: cover;
+}

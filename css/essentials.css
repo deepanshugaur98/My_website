@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600|Oxygen:700|Roboto:300,400,900');
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'proxima nova';
+   -webkit-font-smoothing: antialiased;
+}
+nav{
+   height: 50px;
+   position: fixed;
+   z-index: 300;
+   transition: all .5s;
+   width: 100vw;
+}
+.scrolled{
+   background: #f8f8f9;
+   background: linear-gradient(to right, #4A00E030, #8E2DE230);
+   background: #efe7ff;
+   background: #ffffff;
+   background: #f9fafb;
+}
+.scrolled_text{
+   color: #000000;
+   background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav ul{
+   line-height: 50px;
+   float: right;
+   margin-right: 5vw;
+}
+nav ul li{
+   font-size: 14px;
+   display: inline-block;
+   padding: 0 13px;
+}
+nav ul a li{
+   color: #ffffff;
+   background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer{
+   margin-top: 10vh;
+   background: #292F3608;
+}
+footer h5{
+   width: 100vw;
+   font-weight: 300;
+   background: #292F36;
+   height: 30px;
+   line-height: 30px;
+   font-size: 15px;
+   color: white;
+   text-align: center;
+}
+footer h5 a{
+   color: #97EAD2;
+   text-decoration: none;
+}
+.social-media i{
+   font-size:25px;
+   margin: 0px 10px;
+   background: #ffffff;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius:100%;
+   color: #000;
+   transition :all .2s;
+   text-align: center;
+}
+.social-media i:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+   box-shadow: 0 0 1px 5px #08334530; // #20BF5530  #292F3630;
+   color: white;
+   background: #083345; //#20BF55 #292F36;
+}
