@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600|Oxygen:700|Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
 *{
    margin: 0;
    padding: 0;
@@ -34,18 +36,13 @@ nav ul li:hover{
 .scrolled{
    background: #3A506B;
 }
-#particles-js{
+.section-1{
    text-align: center;
    margin: auto;
    background: #3A506B;
    height: 100vh;
-   color: white;
-}
-#particles-js canvas{
-   height: 100vh;
-   top: 0;
-   margin-top: -100vh;
    width: 100vw;
+   color: white;
 }
 .section-1 img{
    height: 170px;
@@ -58,7 +55,7 @@ nav ul li:hover{
    font-size: 40px;
 }
 .section-1 h1 span{
-   font-weight: 400;
+   font-family: 'Oxygen', sans-serif;
 }
 .section-1 h2 {
     font-size: 25px;
@@ -92,28 +89,34 @@ nav ul li:hover{
 .social-media i:hover{
    cursor: pointer;
    transform: scale(1.1);
-   box-shadow: 0 0 1px 5px #ffffff40; 
+   box-shadow: 0 0 1px 5px #ffffff40;
 }
 .section-3{
+   width: 100vw;
+}
+.section-3 .content{
    width: 80vw;
    margin: auto;
    padding : 50px;
-   //background: orange;
 }
 .section-3 h2, .section-4 h2{
    font-family: 'Josefin Sans', sans-serif;
-   font-size: 50px;
+   font-size: 65px;
    text-align: center;
-   margin-bottom: 20px;
+   padding: 90px 0 30px 0;
+   color : #F0386B;
+}
+.section-4 h2{
+   color: #000;
 }
 .work {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    grid-template-rows:20% auto;
-   margin: 40px 0 70px;
+   margin: 40px 0 0px;
 }
 .work h3{
-   font-size: 40px;
+   font-size: 30px;
    margin-bottom: 20px;
    grid-row: 1/2;
    grid-column: 1/5;
@@ -138,10 +141,14 @@ nav ul li:hover{
 
 }
 
-.section-4 {
+.section-4{
+   background: #FDFFF7;
+   width: 100vw;
+}
+.section-4 .content{
    width: 80vw;
    margin: auto;
-   margin-bottom: 30px;
+   padding-bottom: 30px;
 }
 .section-4 .content{
    display: grid;
@@ -154,7 +161,7 @@ nav ul li:hover{
    box-shadow: 1px 2px 5px #eee;
 }
 .section-4 .project h3{
-   padding: 15px 0px 0 10px;
+   padding: 15px 0px 0 15px;
    font-size: 25px;
 }
 .section-4 .project p{
@@ -212,5 +219,6 @@ footer h5{
    text-align: center;
 }
 footer h5 a{
-   color: pink;
+   color: #97EAD2;
+   text-decoration: none;
 }
