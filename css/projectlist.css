@@ -10,11 +10,14 @@ h1{
    font-size: 50px;
    font-weight: 300;
    text-align: center;
-   padding-top: 20vh;
+   padding-top: 23vh;
    background: linear-gradient(to right, #4A00E0, #8E2DE2);
    color: white;
    margin-bottom: 5vh;
-   padding-bottom: 3vh;
+   padding-bottom: 5vh;
+}
+.exp{
+   font-size: 45px;
 }
 h3{
    font-family: 'IBM Plex Serif';
