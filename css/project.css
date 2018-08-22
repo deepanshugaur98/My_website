@@ -8,6 +8,14 @@ h1{
    font-weight: 600;
    padding-top: 20vh;
    padding-bottom: 5vh;
+}h1{
+   font-size: 50px;
+   font-weight: 300;
+   text-align: center;
+   padding-top: 20vh;
+   background: linear-gradient(to right, #4A00E0, #8E2DE2);
+   color: white;
+   padding-bottom: 5vh;
 }
 img{
    position: relative;

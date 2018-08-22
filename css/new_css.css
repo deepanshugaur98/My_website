@@ -148,7 +148,7 @@ footer{
 footer h4{
    font-weight: 300;
    font-size: 25px;
-   padding: 10px 50px;
+   padding: 10px 100px;
    padding-top: 30px;
 }
 footer h4 a{
@@ -161,8 +161,7 @@ footer h4 a:hover{
 }
 footer .social-media{
    font-size: 14px;
-   margin-left: 40px;
-   padding: 20px 0 100px 0;
+    margin: 20px 0 100px 85px;
 }
 footer h5{
    width: 100vw;
