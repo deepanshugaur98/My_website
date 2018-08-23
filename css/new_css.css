@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600|Oxygen:700|Roboto:300,400,900');
+@import url('../fonts/ProximaNova-Light.tff');
+@import url('../fonts/ProximaNova-Bold.tff');
+@import url('../fonts/ProximaNova-SBlod.tff');
+@import url('../fonts/ProximaNova-Reg.tff');
+@import url('../fonts/ProximaNova-Thin.tff');
 *{
    margin: 0;
    padding: 0;
