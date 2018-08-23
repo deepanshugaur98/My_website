@@ -19,13 +19,14 @@ nav{
    background: #efe7ff;
    background: #ffffff;
    background: #f9fafb;
+   /* background: linear-gradient(to right, #4A00E0, #8E2DE2); */
 }
 .scrolled_text{
    color: #000000;
    background: linear-gradient(to right, #4A00E0, #8E2DE2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+  }
 nav ul{
    line-height: 50px;
    float: right;
