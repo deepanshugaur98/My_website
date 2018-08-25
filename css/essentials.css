@@ -17,6 +17,7 @@
    font-family: 'proxima nova',  sans-serif;
    /* font-family: 'IBM Plex Sans', sans-serif; */
    -webkit-font-smoothing: antialiased;
+   overflow-x: hidden;
 }
 nav{
    height: 50px;
