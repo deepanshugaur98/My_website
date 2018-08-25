@@ -40,3 +40,88 @@ img{
    height: 400px;
    background-size: cover;
 }
+
+
+@media  (max-width: 1024px){
+   .img-1 {
+      height: 300px;
+      }
+   .work p{
+      font-size: 16px;
+   }
+
+   .content{
+      column-gap: 30px;
+      width: 80vw;
+   }
+}
+@media (max-width:768px){
+   .img-1 {
+      height: 275px;
+   }
+   .content{
+      column-gap: 20px;
+      width: 80vw;
+   }
+   .exp{
+      font-size: 40px;
+   }
+}
+@media (max-width:425px) {
+   nav ul li{
+      font-size: 12px;
+      padding: 0 10px;
+   }
+   nav ul{
+      width: 100%;
+      float: none;
+      display: flex;
+      justify-content: center;
+   }
+   .content{
+      display: block;
+   }
+   .work{
+      padding-bottom: 8vh;
+   }
+   .work .img-1{
+      height: 250px;
+   }
+   footer{
+      margin-top: 5vh;
+   }
+   .exp{
+      font-size: 40px;
+   }
+}
+@media (max-width: 375px) {
+   nav ul li{
+      font-size: 12px;
+      padding: 0 5px;
+   }
+   .exp{
+      font-size: 35px;
+      padding: 23vh 3vw 5vh;
+   }
+}
+
+@media (max-width: 320px) {
+   nav ul li{
+      padding: 0 5px;
+      font-size: 10px;
+   }
+   .work h3{
+      font-size: 20px;
+   }
+   .work p{
+      font-size: 18px;
+   }
+   .work .img-1{
+      height: 200px;
+   }
+
+   .exp{
+      font-size: 30px;
+      padding: 23vh 5vw 5vh;
+   }
+}
