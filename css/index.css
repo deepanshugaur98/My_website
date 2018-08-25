@@ -295,8 +295,11 @@ footer h5 a{
    .section-1 img{
       width: 130px;
    }
+   .wrapper{
+      width: 75vw;
+   }
    .section-3 , .section-2{
-      width: 70vw;
+      width: 75vw;
       margin: auto;
       display: grid;
       grid-template-columns: 1fr;
@@ -314,7 +317,7 @@ footer h5 a{
       padding-bottom: 30px;
    }
    .work .img-1{
-      height: 200px;
+      height: 250px;
    }
    .blog p{
       font-size: 16px;
