@@ -25,6 +25,7 @@ nav{
    z-index: 300;
    transition: all .5s;
    width: 100vw;
+   overflow: hidden;
 }
 .scrolled{
    background: #f8f8f9;
@@ -32,6 +33,7 @@ nav{
    background: #efe7ff;
    background: #ffffff;
    background: #f9fafb;
+
    /* background: linear-gradient(to right, #4A00E0, #8E2DE2); */
 }
 .scrolled_text{
@@ -44,6 +46,8 @@ nav ul{
    line-height: 50px;
    float: right;
    margin-right: 5vw;
+   max-height: 50px;
+   overflow: hidden;
 }
 nav ul li{
    font-size: 14px;
@@ -55,6 +59,10 @@ nav ul a li{
    /* background: linear-gradient(to right, #4A00E0, #8E2DE2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
+}
+nav ul a{
+   max-height: 50px;
+   overflow: hidden;
 }
 
 footer{
