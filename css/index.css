@@ -181,7 +181,9 @@ footer h4 a:hover{
 }
 footer .social-media{
    font-size: 14px;
-    margin: 20px 0 100px 85px;
+   margin: 15px 0 100px 85px;
+   height: 50px;
+   padding-top: 10px;
 }
 footer h5{
    width: 100vw;
