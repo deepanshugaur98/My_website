@@ -2,20 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600|Oxygen:700');
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700');
 
-@font-face {
+/* @font-face {
    name: 'proxima nova';
    src: url('../fonts/ProximaNova-Light.tff') format('truetype'),
         url('../fonts/ProximaNova-Reg.tff') format('truetype'),
         url('../fonts/ProximaNova-Blod.tff') format('truetype'),
         url('../fonts/ProximaNova-Thin.tff') format('truetype'),
         url('../fonts/ProximaNova-Sblod.tff') format('truetype'),;
-}
+} */
 
 *{
    margin: 0;
    padding: 0;
-   font-family: 'proxima nova',  sans-serif;
-   /* font-family: 'IBM Plex Sans', sans-serif; */
+   /* font-family: 'proxima nova',  sans-serif; */
+   font-family: 'IBM Plex Sans', sans-serif;
    -webkit-font-smoothing: antialiased;
    overflow-x: hidden;
 }
