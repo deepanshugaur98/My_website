@@ -31,3 +31,56 @@ p{
 nav{
    background: linear-gradient(to right, #4A00E0, #8E2DE2);
 }
+@media  (max-width: 1024px){
+
+}
+@media (max-width:768px){
+   .wrapper{
+      width: 70vw;
+   }
+   img{
+      position: relative;
+      width: 100%;
+   }
+   h1{
+      font-size: 50px;
+   }
+   h2{
+      font-size: 25px;
+   }
+}
+@media (max-width:425px) {
+   nav ul li{
+      font-size: 12px;
+      padding: 0 10px;
+   }
+   nav ul{
+      width: 100%;
+      float: none;
+      display: flex;
+      justify-content: center;
+
+      overflow: hidden;
+      max-height: 50px;
+   }
+   footer{
+      margin-top: 5vh;
+   }
+}
+@media (max-width: 375px) {
+   nav ul li{
+      font-size: 11px;
+      padding: 0 5px;
+   }
+   .exp{
+      font-size: 35px;
+      padding: 23vh 3vw 5vh;
+   }
+}
+
+@media (max-width: 320px) {
+   nav ul li{
+      padding: 0 5px;
+      font-size: 10px;
+   }
+}

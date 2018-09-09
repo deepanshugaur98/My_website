@@ -71,7 +71,7 @@ img{
 }
 @media (max-width:425px) {
    nav ul li{
-      font-size: 12px;
+      font-size: 11px;
       padding: 0 10px;
    }
    nav ul{
